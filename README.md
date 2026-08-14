@@ -32,3 +32,9 @@ npm start
 
 - `GET /api/health` — проверка, что сервер запущен
 - `GET /api/weather?city=Minsk&unit=metric` — запрос погоды
+
+## Docker Compose
+
+```bash
+docker compose up --build
+```
